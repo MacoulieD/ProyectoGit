@@ -1,3 +1,67 @@
-body{
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#caja1 {
+    width: 33%;
+    height: 300px;
+    border: 1px solid;
     background-color: lightblue;
+    text-align: center;
+}
+
+#caja2 {
+    width: 34%;
+    height: 300px;
+    border: 1px solid;
+    background-color: lightgrey;
+    text-align: center;
+    align-items: center;
+}
+
+#caja3 {
+    width: 33%;
+    height: 300px;
+    border: 1px solid;
+    background-color: lightpink;
+    text-align: center;
+    align-items: center;
+}
+
+#tx1 {
+    padding-top: 130;
+    font-size: 40px;
+}
+
+#tx2 {
+    padding-top: 130;
+    font-size: 40px;
+}
+
+#tx3 {
+    padding-top: 130;
+    font-size: 40px;
+}
+
+.libre-baskerville-regular-italic {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.shadows-into-light-regular {
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@media screen and (min-width: 600px) {
+    #contenedor {
+        display: flex;
+
+    }
+
 }
